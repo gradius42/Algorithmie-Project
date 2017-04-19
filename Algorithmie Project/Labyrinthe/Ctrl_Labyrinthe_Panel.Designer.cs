@@ -47,6 +47,8 @@
             this.HelpProvider = new System.Windows.Forms.HelpProvider();
             this.ErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.grp_Affichage = new System.Windows.Forms.GroupBox();
+            this.nud_delai = new System.Windows.Forms.NumericUpDown();
+            this.lbl_delai = new System.Windows.Forms.Label();
             this.rdb_construction_normal = new System.Windows.Forms.RadioButton();
             this.rdb_construction_etendu = new System.Windows.Forms.RadioButton();
             this.btn_start = new System.Windows.Forms.Button();
@@ -55,16 +57,14 @@
             this.chk_As = new System.Windows.Forms.CheckBox();
             this.chk_Dij_parcour = new System.Windows.Forms.CheckBox();
             this.chk_Dij = new System.Windows.Forms.CheckBox();
-            this.lbl_delai = new System.Windows.Forms.Label();
-            this.nud_delai = new System.Windows.Forms.NumericUpDown();
             this.grp_taille.SuspendLayout();
             this.grp_prop_generation.SuspendLayout();
             this.grp_graine.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trk_ratio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ErrorProvider)).BeginInit();
             this.grp_Affichage.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nud_delai)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // grp_taille
@@ -269,6 +269,39 @@
             this.grp_Affichage.TabStop = false;
             this.grp_Affichage.Text = "Affichage";
             // 
+            // nud_delai
+            // 
+            this.nud_delai.DecimalPlaces = 1;
+            this.nud_delai.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.nud_delai.Location = new System.Drawing.Point(155, 64);
+            this.nud_delai.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.nud_delai.Name = "nud_delai";
+            this.nud_delai.Size = new System.Drawing.Size(65, 20);
+            this.nud_delai.TabIndex = 4;
+            this.nud_delai.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nud_delai.Value = new decimal(new int[] {
+            15,
+            0,
+            0,
+            65536});
+            // 
+            // lbl_delai
+            // 
+            this.lbl_delai.AutoSize = true;
+            this.lbl_delai.Location = new System.Drawing.Point(7, 68);
+            this.lbl_delai.Name = "lbl_delai";
+            this.lbl_delai.Size = new System.Drawing.Size(142, 13);
+            this.lbl_delai.TabIndex = 3;
+            this.lbl_delai.Text = "Délais entre les étapes (ms) :";
+            // 
             // rdb_construction_normal
             // 
             this.rdb_construction_normal.AutoSize = true;
@@ -366,39 +399,6 @@
             this.chk_Dij.UseVisualStyleBackColor = true;
             this.chk_Dij.CheckedChanged += new System.EventHandler(this.chk_Dij_CheckedChanged);
             // 
-            // lbl_delai
-            // 
-            this.lbl_delai.AutoSize = true;
-            this.lbl_delai.Location = new System.Drawing.Point(7, 68);
-            this.lbl_delai.Name = "lbl_delai";
-            this.lbl_delai.Size = new System.Drawing.Size(142, 13);
-            this.lbl_delai.TabIndex = 3;
-            this.lbl_delai.Text = "Délais entre les étapes (ms) :";
-            // 
-            // nud_delai
-            // 
-            this.nud_delai.DecimalPlaces = 1;
-            this.nud_delai.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.nud_delai.Location = new System.Drawing.Point(155, 64);
-            this.nud_delai.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.nud_delai.Name = "nud_delai";
-            this.nud_delai.Size = new System.Drawing.Size(65, 20);
-            this.nud_delai.TabIndex = 4;
-            this.nud_delai.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nud_delai.Value = new decimal(new int[] {
-            15,
-            0,
-            0,
-            65536});
-            // 
             // Ctrl_Labyrinthe_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -409,7 +409,7 @@
             this.Controls.Add(this.grp_Affichage);
             this.Controls.Add(this.grp_prop_generation);
             this.Name = "Ctrl_Labyrinthe_Panel";
-            this.Size = new System.Drawing.Size(230, 600);
+            this.Size = new System.Drawing.Size(230, 591);
             this.grp_taille.ResumeLayout(false);
             this.grp_taille.PerformLayout();
             this.grp_prop_generation.ResumeLayout(false);
@@ -420,9 +420,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.ErrorProvider)).EndInit();
             this.grp_Affichage.ResumeLayout(false);
             this.grp_Affichage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_delai)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nud_delai)).EndInit();
             this.ResumeLayout(false);
 
         }

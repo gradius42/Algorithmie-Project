@@ -32,6 +32,7 @@
             this.lbl_cmb_tri = new System.Windows.Forms.Label();
             this.cmb_Sorting = new System.Windows.Forms.ComboBox();
             this.grp_nb_value = new System.Windows.Forms.GroupBox();
+            this.rdb_900 = new System.Windows.Forms.RadioButton();
             this.rdb_600 = new System.Windows.Forms.RadioButton();
             this.rdb_300 = new System.Windows.Forms.RadioButton();
             this.rdb_100 = new System.Windows.Forms.RadioButton();
@@ -52,7 +53,6 @@
             this.rdb_Col_Thin = new System.Windows.Forms.RadioButton();
             this.rdb_Col_Full = new System.Windows.Forms.RadioButton();
             this.btn_start = new System.Windows.Forms.Button();
-            this.rdb_900 = new System.Windows.Forms.RadioButton();
             this.grp_nb_value.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -105,6 +105,16 @@
             this.grp_nb_value.TabIndex = 2;
             this.grp_nb_value.TabStop = false;
             this.grp_nb_value.Text = "Nombre de valeur :";
+            // 
+            // rdb_900
+            // 
+            this.rdb_900.AutoSize = true;
+            this.rdb_900.Location = new System.Drawing.Point(147, 68);
+            this.rdb_900.Name = "rdb_900";
+            this.rdb_900.Size = new System.Drawing.Size(43, 17);
+            this.rdb_900.TabIndex = 6;
+            this.rdb_900.Text = "900";
+            this.rdb_900.UseVisualStyleBackColor = true;
             // 
             // rdb_600
             // 
@@ -325,16 +335,6 @@
             this.btn_start.UseVisualStyleBackColor = false;
             this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
             // 
-            // rdb_900
-            // 
-            this.rdb_900.AutoSize = true;
-            this.rdb_900.Location = new System.Drawing.Point(147, 68);
-            this.rdb_900.Name = "rdb_900";
-            this.rdb_900.Size = new System.Drawing.Size(43, 17);
-            this.rdb_900.TabIndex = 6;
-            this.rdb_900.Text = "900";
-            this.rdb_900.UseVisualStyleBackColor = true;
-            // 
             // Ctrl_Sorting_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -346,7 +346,7 @@
             this.Controls.Add(this.cmb_Sorting);
             this.Controls.Add(this.lbl_cmb_tri);
             this.Name = "Ctrl_Sorting_Panel";
-            this.Size = new System.Drawing.Size(230, 600);
+            this.Size = new System.Drawing.Size(230, 583);
             this.grp_nb_value.ResumeLayout(false);
             this.grp_nb_value.PerformLayout();
             this.groupBox1.ResumeLayout(false);

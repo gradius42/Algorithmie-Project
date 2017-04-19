@@ -28,100 +28,100 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Selection Sort");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Insertion Sort");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Bubble Sort");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Shaker Sort");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Simple Sort", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4});
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Quick Sort");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Heap Sort");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Merge Sort");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Intro Sort");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Efficient Sort", new System.Windows.Forms.TreeNode[] {
-            treeNode6,
-            treeNode7,
-            treeNode8,
-            treeNode9});
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Radix LSD Sort");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Radix MSD Sort");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Bucket Sort");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Counting Sort");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("No Comparison Sort", new System.Windows.Forms.TreeNode[] {
-            treeNode11,
-            treeNode12,
-            treeNode13,
-            treeNode14});
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("BFS");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("DFS");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Binary Search");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Efficient");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Recherche", new System.Windows.Forms.TreeNode[] {
-            treeNode16,
-            treeNode17,
-            treeNode18,
-            treeNode19});
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Tri & Recherche", new System.Windows.Forms.TreeNode[] {
-            treeNode5,
-            treeNode10,
-            treeNode15,
-            treeNode20});
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Labyrinthe");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Graphe général");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Graphe", new System.Windows.Forms.TreeNode[] {
-            treeNode22,
-            treeNode23});
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Fractal Tree");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Paterne");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Autre");
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Fractal", new System.Windows.Forms.TreeNode[] {
-            treeNode25,
-            treeNode26,
-            treeNode27});
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Les 8 Reines");
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Hanoï");
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Autre problèmes", new System.Windows.Forms.TreeNode[] {
-            treeNode29,
-            treeNode30});
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Casse brique");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Snake");
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Space invader");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Jeux", new System.Windows.Forms.TreeNode[] {
-            treeNode32,
-            treeNode33,
-            treeNode34});
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Matrice");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Parcour infixe");
-            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Parcour Prefixe");
-            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Parcourt Postfixe");
-            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Equilbrage");
-            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Arbres binaire", new System.Windows.Forms.TreeNode[] {
-            treeNode37,
-            treeNode38,
-            treeNode39,
-            treeNode40});
-            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Arbres");
-            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Proba & Stat");
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Mathématique", new System.Windows.Forms.TreeNode[] {
-            treeNode36,
-            treeNode41,
-            treeNode42,
-            treeNode43});
-            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Hash");
-            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("RSA");
-            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Cryptographie", new System.Windows.Forms.TreeNode[] {
-            treeNode45,
-            treeNode46});
-            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Filtres");
-            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Reconnaissance d\'écriture");
-            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Modélisation 3D");
-            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Image", new System.Windows.Forms.TreeNode[] {
-            treeNode48,
-            treeNode49,
-            treeNode50});
+            System.Windows.Forms.TreeNode treeNode205 = new System.Windows.Forms.TreeNode("Selection Sort");
+            System.Windows.Forms.TreeNode treeNode206 = new System.Windows.Forms.TreeNode("Insertion Sort");
+            System.Windows.Forms.TreeNode treeNode207 = new System.Windows.Forms.TreeNode("Bubble Sort");
+            System.Windows.Forms.TreeNode treeNode208 = new System.Windows.Forms.TreeNode("Shaker Sort");
+            System.Windows.Forms.TreeNode treeNode209 = new System.Windows.Forms.TreeNode("Simple Sort", new System.Windows.Forms.TreeNode[] {
+            treeNode205,
+            treeNode206,
+            treeNode207,
+            treeNode208});
+            System.Windows.Forms.TreeNode treeNode210 = new System.Windows.Forms.TreeNode("Quick Sort");
+            System.Windows.Forms.TreeNode treeNode211 = new System.Windows.Forms.TreeNode("Heap Sort");
+            System.Windows.Forms.TreeNode treeNode212 = new System.Windows.Forms.TreeNode("Merge Sort");
+            System.Windows.Forms.TreeNode treeNode213 = new System.Windows.Forms.TreeNode("Intro Sort");
+            System.Windows.Forms.TreeNode treeNode214 = new System.Windows.Forms.TreeNode("Efficient Sort", new System.Windows.Forms.TreeNode[] {
+            treeNode210,
+            treeNode211,
+            treeNode212,
+            treeNode213});
+            System.Windows.Forms.TreeNode treeNode215 = new System.Windows.Forms.TreeNode("Radix LSD Sort");
+            System.Windows.Forms.TreeNode treeNode216 = new System.Windows.Forms.TreeNode("Radix MSD Sort");
+            System.Windows.Forms.TreeNode treeNode217 = new System.Windows.Forms.TreeNode("Bucket Sort");
+            System.Windows.Forms.TreeNode treeNode218 = new System.Windows.Forms.TreeNode("Counting Sort");
+            System.Windows.Forms.TreeNode treeNode219 = new System.Windows.Forms.TreeNode("No Comparison Sort", new System.Windows.Forms.TreeNode[] {
+            treeNode215,
+            treeNode216,
+            treeNode217,
+            treeNode218});
+            System.Windows.Forms.TreeNode treeNode220 = new System.Windows.Forms.TreeNode("BFS");
+            System.Windows.Forms.TreeNode treeNode221 = new System.Windows.Forms.TreeNode("DFS");
+            System.Windows.Forms.TreeNode treeNode222 = new System.Windows.Forms.TreeNode("Binary Search");
+            System.Windows.Forms.TreeNode treeNode223 = new System.Windows.Forms.TreeNode("Efficient");
+            System.Windows.Forms.TreeNode treeNode224 = new System.Windows.Forms.TreeNode("Recherche", new System.Windows.Forms.TreeNode[] {
+            treeNode220,
+            treeNode221,
+            treeNode222,
+            treeNode223});
+            System.Windows.Forms.TreeNode treeNode225 = new System.Windows.Forms.TreeNode("Tri & Recherche", new System.Windows.Forms.TreeNode[] {
+            treeNode209,
+            treeNode214,
+            treeNode219,
+            treeNode224});
+            System.Windows.Forms.TreeNode treeNode226 = new System.Windows.Forms.TreeNode("Labyrinthe");
+            System.Windows.Forms.TreeNode treeNode227 = new System.Windows.Forms.TreeNode("Graphe général");
+            System.Windows.Forms.TreeNode treeNode228 = new System.Windows.Forms.TreeNode("Graphe", new System.Windows.Forms.TreeNode[] {
+            treeNode226,
+            treeNode227});
+            System.Windows.Forms.TreeNode treeNode229 = new System.Windows.Forms.TreeNode("Fractal Tree");
+            System.Windows.Forms.TreeNode treeNode230 = new System.Windows.Forms.TreeNode("Paterne");
+            System.Windows.Forms.TreeNode treeNode231 = new System.Windows.Forms.TreeNode("Autre");
+            System.Windows.Forms.TreeNode treeNode232 = new System.Windows.Forms.TreeNode("Fractal", new System.Windows.Forms.TreeNode[] {
+            treeNode229,
+            treeNode230,
+            treeNode231});
+            System.Windows.Forms.TreeNode treeNode233 = new System.Windows.Forms.TreeNode("Les 8 Reines");
+            System.Windows.Forms.TreeNode treeNode234 = new System.Windows.Forms.TreeNode("Hanoï");
+            System.Windows.Forms.TreeNode treeNode235 = new System.Windows.Forms.TreeNode("Autre problèmes", new System.Windows.Forms.TreeNode[] {
+            treeNode233,
+            treeNode234});
+            System.Windows.Forms.TreeNode treeNode236 = new System.Windows.Forms.TreeNode("Casse brique");
+            System.Windows.Forms.TreeNode treeNode237 = new System.Windows.Forms.TreeNode("Snake");
+            System.Windows.Forms.TreeNode treeNode238 = new System.Windows.Forms.TreeNode("Space invader");
+            System.Windows.Forms.TreeNode treeNode239 = new System.Windows.Forms.TreeNode("Jeux", new System.Windows.Forms.TreeNode[] {
+            treeNode236,
+            treeNode237,
+            treeNode238});
+            System.Windows.Forms.TreeNode treeNode240 = new System.Windows.Forms.TreeNode("Matrice");
+            System.Windows.Forms.TreeNode treeNode241 = new System.Windows.Forms.TreeNode("Parcour infixe");
+            System.Windows.Forms.TreeNode treeNode242 = new System.Windows.Forms.TreeNode("Parcour Prefixe");
+            System.Windows.Forms.TreeNode treeNode243 = new System.Windows.Forms.TreeNode("Parcourt Postfixe");
+            System.Windows.Forms.TreeNode treeNode244 = new System.Windows.Forms.TreeNode("Equilbrage");
+            System.Windows.Forms.TreeNode treeNode245 = new System.Windows.Forms.TreeNode("Arbres binaire", new System.Windows.Forms.TreeNode[] {
+            treeNode241,
+            treeNode242,
+            treeNode243,
+            treeNode244});
+            System.Windows.Forms.TreeNode treeNode246 = new System.Windows.Forms.TreeNode("Arbres");
+            System.Windows.Forms.TreeNode treeNode247 = new System.Windows.Forms.TreeNode("Proba & Stat");
+            System.Windows.Forms.TreeNode treeNode248 = new System.Windows.Forms.TreeNode("Mathématique", new System.Windows.Forms.TreeNode[] {
+            treeNode240,
+            treeNode245,
+            treeNode246,
+            treeNode247});
+            System.Windows.Forms.TreeNode treeNode249 = new System.Windows.Forms.TreeNode("Hash");
+            System.Windows.Forms.TreeNode treeNode250 = new System.Windows.Forms.TreeNode("RSA");
+            System.Windows.Forms.TreeNode treeNode251 = new System.Windows.Forms.TreeNode("Cryptographie", new System.Windows.Forms.TreeNode[] {
+            treeNode249,
+            treeNode250});
+            System.Windows.Forms.TreeNode treeNode252 = new System.Windows.Forms.TreeNode("Filtres");
+            System.Windows.Forms.TreeNode treeNode253 = new System.Windows.Forms.TreeNode("Reconnaissance d\'écriture");
+            System.Windows.Forms.TreeNode treeNode254 = new System.Windows.Forms.TreeNode("Modélisation 3D");
+            System.Windows.Forms.TreeNode treeNode255 = new System.Windows.Forms.TreeNode("Image", new System.Windows.Forms.TreeNode[] {
+            treeNode252,
+            treeNode253,
+            treeNode254});
             this.tab_contener = new System.Windows.Forms.TabControl();
             this.tab_page_application = new System.Windows.Forms.TabPage();
             this.canvasComment = new System.Windows.Forms.Panel();
@@ -149,7 +149,7 @@
             this.tab_contener.Location = new System.Drawing.Point(0, 0);
             this.tab_contener.Name = "tab_contener";
             this.tab_contener.SelectedIndex = 0;
-            this.tab_contener.Size = new System.Drawing.Size(1143, 764);
+            this.tab_contener.Size = new System.Drawing.Size(1168, 764);
             this.tab_contener.TabIndex = 0;
             // 
             // tab_page_application
@@ -162,7 +162,7 @@
             this.tab_page_application.Location = new System.Drawing.Point(4, 22);
             this.tab_page_application.Name = "tab_page_application";
             this.tab_page_application.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_page_application.Size = new System.Drawing.Size(1135, 738);
+            this.tab_page_application.Size = new System.Drawing.Size(1160, 738);
             this.tab_page_application.TabIndex = 0;
             this.tab_page_application.Text = "Application";
             // 
@@ -173,26 +173,28 @@
             this.canvasComment.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.canvasComment.Location = new System.Drawing.Point(3, 638);
             this.canvasComment.Name = "canvasComment";
-            this.canvasComment.Size = new System.Drawing.Size(1129, 100);
+            this.canvasComment.Size = new System.Drawing.Size(1154, 100);
             this.canvasComment.TabIndex = 6;
             // 
             // canvas
             // 
             this.canvas.BackColor = System.Drawing.Color.Black;
-            this.canvas.Location = new System.Drawing.Point(232, 37);
+            this.canvas.Dock = System.Windows.Forms.DockStyle.Right;
+            this.canvas.Location = new System.Drawing.Point(257, 39);
             this.canvas.Margin = new System.Windows.Forms.Padding(2);
             this.canvas.Name = "canvas";
-            this.canvas.Size = new System.Drawing.Size(900, 600);
+            this.canvas.Size = new System.Drawing.Size(900, 696);
             this.canvas.TabIndex = 5;
             this.canvas.Paint += new System.Windows.Forms.PaintEventHandler(this.canvas_Paint);
             // 
             // pan_option_menu
             // 
+            this.pan_option_menu.AutoScroll = true;
             this.pan_option_menu.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pan_option_menu.Location = new System.Drawing.Point(3, 37);
             this.pan_option_menu.Margin = new System.Windows.Forms.Padding(2);
             this.pan_option_menu.Name = "pan_option_menu";
-            this.pan_option_menu.Size = new System.Drawing.Size(230, 600);
+            this.pan_option_menu.Size = new System.Drawing.Size(252, 600);
             this.pan_option_menu.TabIndex = 4;
             // 
             // panel1
@@ -205,7 +207,7 @@
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1129, 36);
+            this.panel1.Size = new System.Drawing.Size(1154, 36);
             this.panel1.TabIndex = 3;
             // 
             // btn_test
@@ -277,123 +279,123 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(8, 9);
             this.treeView1.Name = "treeView1";
-            treeNode1.Checked = true;
-            treeNode1.Name = "Nœud35";
-            treeNode1.Text = "Selection Sort";
-            treeNode2.Checked = true;
-            treeNode2.Name = "Nœud36";
-            treeNode2.Text = "Insertion Sort";
-            treeNode3.Checked = true;
-            treeNode3.Name = "Nœud37";
-            treeNode3.Text = "Bubble Sort";
-            treeNode4.Checked = true;
-            treeNode4.Name = "Nœud38";
-            treeNode4.Text = "Shaker Sort";
-            treeNode5.Name = "Nœud48";
-            treeNode5.Text = "Simple Sort";
-            treeNode6.Checked = true;
-            treeNode6.Name = "Nœud39";
-            treeNode6.Text = "Quick Sort";
-            treeNode7.Name = "Nœud41";
-            treeNode7.Text = "Heap Sort";
-            treeNode8.Name = "Nœud42";
-            treeNode8.Text = "Merge Sort";
-            treeNode9.Name = "Nœud47";
-            treeNode9.Text = "Intro Sort";
-            treeNode10.Name = "Nœud49";
-            treeNode10.Text = "Efficient Sort";
-            treeNode11.Checked = true;
-            treeNode11.Name = "Nœud40";
-            treeNode11.Text = "Radix LSD Sort";
-            treeNode12.Name = "Nœud43";
-            treeNode12.Text = "Radix MSD Sort";
-            treeNode13.Name = "Nœud44";
-            treeNode13.Text = "Bucket Sort";
-            treeNode14.Name = "Nœud45";
-            treeNode14.Text = "Counting Sort";
-            treeNode15.Name = "Noeud 50";
-            treeNode15.Text = "No Comparison Sort";
-            treeNode16.Name = "Nœud31";
-            treeNode16.Text = "BFS";
-            treeNode17.Name = "Nœud32";
-            treeNode17.Text = "DFS";
-            treeNode18.Name = "Nœud33";
-            treeNode18.Text = "Binary Search";
-            treeNode19.Name = "Nœud34";
-            treeNode19.Text = "Efficient";
-            treeNode20.Name = "Nœud28";
-            treeNode20.Text = "Recherche";
-            treeNode21.Name = "N_Tri";
-            treeNode21.Text = "Tri & Recherche";
-            treeNode22.Name = "Nœud2";
-            treeNode22.Text = "Labyrinthe";
-            treeNode23.Name = "Nœud5";
-            treeNode23.Text = "Graphe général";
-            treeNode24.Name = "N_Graphe";
-            treeNode24.Text = "Graphe";
-            treeNode25.Name = "Nœud14";
-            treeNode25.Text = "Fractal Tree";
-            treeNode26.Name = "Nœud15";
-            treeNode26.Text = "Paterne";
-            treeNode27.Name = "Nœud16";
-            treeNode27.Text = "Autre";
-            treeNode28.Name = "Nœud6";
-            treeNode28.Text = "Fractal";
-            treeNode29.Name = "Nœud8";
-            treeNode29.Text = "Les 8 Reines";
-            treeNode30.Name = "Nœud9";
-            treeNode30.Text = "Hanoï";
-            treeNode31.Name = "Nœud7";
-            treeNode31.Text = "Autre problèmes";
-            treeNode32.Name = "Nœud11";
-            treeNode32.Text = "Casse brique";
-            treeNode33.Name = "Nœud12";
-            treeNode33.Text = "Snake";
-            treeNode34.Name = "Nœud13";
-            treeNode34.Text = "Space invader";
-            treeNode35.Name = "Nœud10";
-            treeNode35.Text = "Jeux";
-            treeNode36.Name = "Nœud22";
-            treeNode36.Text = "Matrice";
-            treeNode37.Name = "Nœud1";
-            treeNode37.Text = "Parcour infixe";
-            treeNode38.Name = "Nœud2";
-            treeNode38.Text = "Parcour Prefixe";
-            treeNode39.Name = "Nœud3";
-            treeNode39.Text = "Parcourt Postfixe";
-            treeNode40.Name = "Nœud4";
-            treeNode40.Text = "Equilbrage";
-            treeNode41.Name = "Nœud51";
-            treeNode41.Text = "Arbres binaire";
-            treeNode42.Name = "Nœud0";
-            treeNode42.Text = "Arbres";
-            treeNode43.Name = "Nœud5";
-            treeNode43.Text = "Proba & Stat";
-            treeNode44.Name = "Nœud21";
-            treeNode44.Text = "Mathématique";
-            treeNode45.Name = "Nœud25";
-            treeNode45.Text = "Hash";
-            treeNode46.Name = "Nœud26";
-            treeNode46.Text = "RSA";
-            treeNode47.Name = "Nœud23";
-            treeNode47.Text = "Cryptographie";
-            treeNode48.Name = "Nœud27";
-            treeNode48.Text = "Filtres";
-            treeNode49.Name = "Nœud19";
-            treeNode49.Text = "Reconnaissance d\'écriture";
-            treeNode50.Name = "Nœud20";
-            treeNode50.Text = "Modélisation 3D";
-            treeNode51.Name = "Nœud24";
-            treeNode51.Text = "Image";
+            treeNode205.Checked = true;
+            treeNode205.Name = "Nœud35";
+            treeNode205.Text = "Selection Sort";
+            treeNode206.Checked = true;
+            treeNode206.Name = "Nœud36";
+            treeNode206.Text = "Insertion Sort";
+            treeNode207.Checked = true;
+            treeNode207.Name = "Nœud37";
+            treeNode207.Text = "Bubble Sort";
+            treeNode208.Checked = true;
+            treeNode208.Name = "Nœud38";
+            treeNode208.Text = "Shaker Sort";
+            treeNode209.Name = "Nœud48";
+            treeNode209.Text = "Simple Sort";
+            treeNode210.Checked = true;
+            treeNode210.Name = "Nœud39";
+            treeNode210.Text = "Quick Sort";
+            treeNode211.Name = "Nœud41";
+            treeNode211.Text = "Heap Sort";
+            treeNode212.Name = "Nœud42";
+            treeNode212.Text = "Merge Sort";
+            treeNode213.Name = "Nœud47";
+            treeNode213.Text = "Intro Sort";
+            treeNode214.Name = "Nœud49";
+            treeNode214.Text = "Efficient Sort";
+            treeNode215.Checked = true;
+            treeNode215.Name = "Nœud40";
+            treeNode215.Text = "Radix LSD Sort";
+            treeNode216.Name = "Nœud43";
+            treeNode216.Text = "Radix MSD Sort";
+            treeNode217.Name = "Nœud44";
+            treeNode217.Text = "Bucket Sort";
+            treeNode218.Name = "Nœud45";
+            treeNode218.Text = "Counting Sort";
+            treeNode219.Name = "Noeud 50";
+            treeNode219.Text = "No Comparison Sort";
+            treeNode220.Name = "Nœud31";
+            treeNode220.Text = "BFS";
+            treeNode221.Name = "Nœud32";
+            treeNode221.Text = "DFS";
+            treeNode222.Name = "Nœud33";
+            treeNode222.Text = "Binary Search";
+            treeNode223.Name = "Nœud34";
+            treeNode223.Text = "Efficient";
+            treeNode224.Name = "Nœud28";
+            treeNode224.Text = "Recherche";
+            treeNode225.Name = "N_Tri";
+            treeNode225.Text = "Tri & Recherche";
+            treeNode226.Name = "Nœud2";
+            treeNode226.Text = "Labyrinthe";
+            treeNode227.Name = "Nœud5";
+            treeNode227.Text = "Graphe général";
+            treeNode228.Name = "N_Graphe";
+            treeNode228.Text = "Graphe";
+            treeNode229.Name = "Nœud14";
+            treeNode229.Text = "Fractal Tree";
+            treeNode230.Name = "Nœud15";
+            treeNode230.Text = "Paterne";
+            treeNode231.Name = "Nœud16";
+            treeNode231.Text = "Autre";
+            treeNode232.Name = "Nœud6";
+            treeNode232.Text = "Fractal";
+            treeNode233.Name = "Nœud8";
+            treeNode233.Text = "Les 8 Reines";
+            treeNode234.Name = "Nœud9";
+            treeNode234.Text = "Hanoï";
+            treeNode235.Name = "Nœud7";
+            treeNode235.Text = "Autre problèmes";
+            treeNode236.Name = "Nœud11";
+            treeNode236.Text = "Casse brique";
+            treeNode237.Name = "Nœud12";
+            treeNode237.Text = "Snake";
+            treeNode238.Name = "Nœud13";
+            treeNode238.Text = "Space invader";
+            treeNode239.Name = "Nœud10";
+            treeNode239.Text = "Jeux";
+            treeNode240.Name = "Nœud22";
+            treeNode240.Text = "Matrice";
+            treeNode241.Name = "Nœud1";
+            treeNode241.Text = "Parcour infixe";
+            treeNode242.Name = "Nœud2";
+            treeNode242.Text = "Parcour Prefixe";
+            treeNode243.Name = "Nœud3";
+            treeNode243.Text = "Parcourt Postfixe";
+            treeNode244.Name = "Nœud4";
+            treeNode244.Text = "Equilbrage";
+            treeNode245.Name = "Nœud51";
+            treeNode245.Text = "Arbres binaire";
+            treeNode246.Name = "Nœud0";
+            treeNode246.Text = "Arbres";
+            treeNode247.Name = "Nœud5";
+            treeNode247.Text = "Proba & Stat";
+            treeNode248.Name = "Nœud21";
+            treeNode248.Text = "Mathématique";
+            treeNode249.Name = "Nœud25";
+            treeNode249.Text = "Hash";
+            treeNode250.Name = "Nœud26";
+            treeNode250.Text = "RSA";
+            treeNode251.Name = "Nœud23";
+            treeNode251.Text = "Cryptographie";
+            treeNode252.Name = "Nœud27";
+            treeNode252.Text = "Filtres";
+            treeNode253.Name = "Nœud19";
+            treeNode253.Text = "Reconnaissance d\'écriture";
+            treeNode254.Name = "Nœud20";
+            treeNode254.Text = "Modélisation 3D";
+            treeNode255.Name = "Nœud24";
+            treeNode255.Text = "Image";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode21,
-            treeNode24,
-            treeNode28,
-            treeNode31,
-            treeNode35,
-            treeNode44,
-            treeNode47,
-            treeNode51});
+            treeNode225,
+            treeNode228,
+            treeNode232,
+            treeNode235,
+            treeNode239,
+            treeNode248,
+            treeNode251,
+            treeNode255});
             this.treeView1.Size = new System.Drawing.Size(229, 723);
             this.treeView1.TabIndex = 0;
             // 
@@ -402,7 +404,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(1143, 764);
+            this.ClientSize = new System.Drawing.Size(1168, 764);
             this.Controls.Add(this.tab_contener);
             this.MaximizeBox = false;
             this.MinimizeBox = false;

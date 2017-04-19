@@ -143,7 +143,7 @@ namespace Algorithmie_Project
 
         public static void Branch(int len, float angle, char cote, int h)
         {
-            if (h > 3)
+            if (h > 1)
                 Draw(0, 0, 0, -len);
             Global.graph.TranslateTransform(0, -len);
 
@@ -158,7 +158,7 @@ namespace Algorithmie_Project
                 Branch(2 * len / 3, angle, 'g', h + 1);
 
 
-                if (h == 0 )
+                /*if (h == 0 )
                 {
                     Global.graph.RotateTransform(180);
 
@@ -174,8 +174,8 @@ namespace Algorithmie_Project
                     Branch(2 * len / 3, angle, 'g', h + 1);
 
                     Global.graph.RotateTransform(180);
-                }
-                /*if (h == 0 || h == 1 || h == 2)
+                }*/
+                if (h == 0 )
                 {
                     Global.graph.RotateTransform(180);
 
@@ -183,8 +183,20 @@ namespace Algorithmie_Project
 
                     Global.graph.RotateTransform(angle);
 
+                    // droite
+                    Global.graph.RotateTransform(angle);
+                    Branch(2 * len / 3, angle, 'd', h + 1);
+
+                    // Gauche
+                    Global.graph.RotateTransform(-angle);
+                    Branch(2 * len / 3, angle, 'g', h + 1);
+
                     Global.graph.RotateTransform(180);
-                }*/
+
+                    Branch(2 * len / 3, angle, 'd', h + 1);
+
+                    Global.graph.RotateTransform(angle);
+                }
 
             }
 
